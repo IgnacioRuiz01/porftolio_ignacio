@@ -1,0 +1,68 @@
+header {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font: size 20px;
+    width: 100%
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.inicio {
+    text-align: center;
+}
+
+.diseños {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+
+
+.drc{
+    margin-top: 103px;
+    margin-bottom:107px;
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+    
+
+}
+.productos{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    
+}
+
+.arriba{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.abajo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+footer {
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
